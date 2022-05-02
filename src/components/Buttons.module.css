@@ -1,0 +1,45 @@
+.centerall {
+    display: flex;
+    justify-content: center;
+}
+.app {
+    width: 30%;
+    margin-top: 50px;
+}
+.screen {
+    background-color: white;
+    border:1px solid black;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    min-height: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.prev {
+    font-size: 18px;
+    color: gray;
+}
+.display {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.twocols {
+    grid-column: span 2;
+}
+.button{
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}
+.button:hover{
+    background-color: red;
+}
+.button:active{
+    background-color: rgb(161, 159, 159);
+}
